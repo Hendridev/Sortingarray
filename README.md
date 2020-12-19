@@ -1,2 +1,2 @@
 # Sortingarray
-soting array with js
+sorting array with js
