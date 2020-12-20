@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting array</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Sorting array</h1>
+        </div>
+        <section class="input-output">
+            <div class="input-user">
+                <input type="text" class="input">
+                <button class="random num">R.NUM</button>
+                <button class="random nam">R.NAM</button>
+                <button class="reset">Reset all</button>
+                <select name="method" id="method">
+                    <option value="number">Number()</option>
+                    <option value="name" class="name">Name()</option>
+                </select>
+                <button class="sort">sort</button>
+            </div>
+            <div class="output-user">
+                <textarea name="output" id="output" cols="65" rows="10" readonly></textarea>
+            </div>
+            <div class="description">
+                <ul>
+                    <li>Sorting input with array method</li>
+                    <li>For multiple input, add comma (,) after the input ex : 2,1 or hen,dev</li>
+                    <li>There's two method, Number() for number input and Name() for alphabet input</li>
+                    <li>Make sure you chose the correct method, or you'll get the wrong result</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="js/random.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

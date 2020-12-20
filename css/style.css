@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+.container {
+    padding: 10px 10px;
+}
+
+.header h1 {
+    width: 174px;
+    padding: 4px;
+    font-size: 22px;
+    background-color: mediumaquamarine;
+    color: white;
+    margin-bottom: 20px;
+}
+
+section.input-output {
+    border: 2px solid;
+    height: 400px;
+}
+
+.input-user {
+    padding: 20px;
+}
+
+.input-user input {
+    width: 300px;
+    border: 2px solid;
+    padding: 5px 10px;
+}
+
+.input-user button {
+    padding: 5px 10px;
+    background-color: white;
+    outline: none;
+}
+
+.input-user button:active {
+    border: none;
+}
+
+.input-user #method {
+    padding: 4px 8px;
+    border: 2px solid;
+    background-color: white;
+}
+
+.output-user {
+    padding: 0px 20px;
+}
+
+.output-user textarea {
+    padding: 8px;
+    resize: none;
+    border: 2px solid;
+}
+
+.input-user .random {
+    font-size: 12px;
+}
+
+.description {
+    padding: 0 20px;
+}
+
+.description ul {
+    padding: 20px;
+}
+
+.description li {
+    line-height: 20px;
+}
